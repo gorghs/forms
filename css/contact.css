@@ -1,0 +1,29 @@
+body {
+    background: linear-gradient(to right, #873ab0, #fcab43);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#contact{
+    
+    margin-left: 6vw;
+} 
+#form{
+    border-color:#d44a0a;
+}
+button{
+    background: linear-gradient(to right,#982ad3, #f5910d);
+    border-color: #fe5507;
+    transition: background-color 0.2s ease;
+    margin-left: 8vw;
+    width: 7vw;
+    height: 2vw;
+
+}
+
+button:hover {
+    background: linear-gradient(to right, #621b7d, #7f5121);
+}

@@ -1,0 +1,70 @@
+body {
+    background: linear-gradient(to right, #00ddb1, #0064ea);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    background-color: #f2f2f2;
+    width: 30%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form-header {
+    text-align: center;
+    background-color: white;
+    background: -webkit-linear-gradient(#00ddb1, #0064ea);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 43px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li::marker {
+    color: #0064ea;
+    font-size: small;
+}
+
+form {
+    width: 100%;
+    margin-top: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #00ddb1;
+    background-color: transparent;
+    font-size: 18px;
+    width: 100%;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+input[type="submit"] {
+    background-color: #00ddb1;
+    width: 60%;
+    border: none;
+    padding: 10px 20px;
+    font-size: xx-large;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+li {
+    text-align: center;
+}
+
+input[type="submit"]:hover
+{
+    background-color: #029376;
+}
